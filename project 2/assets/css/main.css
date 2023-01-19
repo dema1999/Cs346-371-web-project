@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&display=swap');
 
 /*
 	Helios by HTML5 UP
@@ -21,7 +22,6 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -113,8 +113,24 @@ input, select, textarea {
 		font-weight: 400;
 		color: #483949;
 		line-height: 1.25em;
+		font-family: "Noto Sans Arabic";
+	}
+	h6.ar {
+		font-size: 25px;
+		color: #df7366;
+		font-weight: bold;
+		line-height: 0.1em;
+		text-align: right;
+		font-family: "Noto Sans Arabic";
 	}
 
+	p.ar {
+		color: #000000;
+		line-height: 1.25em;
+		text-align: right;
+		font-family: "Noto Sans Arabic";
+	}
+	
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
@@ -1800,7 +1816,12 @@ input, select, textarea {
 			width: 100%;
 			margin: 0 0 4em 0;
 		}
-
+		.image.featured2 {
+			display: block;
+			top: 50px;;
+			width: 100%;
+			margin: 0 0 4em 0;
+		}
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -3153,6 +3174,6 @@ input, select, textarea {
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
-
+					
 	}
-	.post.stub
+	
